@@ -7,6 +7,10 @@
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
 <body>
-    <h1>This is the main view for this project <h1>
+   <div class="container"> 
+    <header>     
+      <a href=""> <h1>Faculty Salaries</h1> </a>
+    </header>
+   </div>
 </body>
 </html>
