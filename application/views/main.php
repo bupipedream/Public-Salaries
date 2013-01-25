@@ -1,17 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Faculty Salaries at Binghamton University</title>
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <meta name="description" content="Search through salaries of professors and faculty at Binghamton University.">
+	<meta charset="utf-8">
+  	<title>Faculty Salaries at Binghamton University</title>
+  	<!-- Bootstrap -->
+  	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  	<meta name="description" content="Search through salaries of professors and faculty at Binghamton University.">	
 </head>
 <body>
-   <div class="container"> 
-    <header>     
-      <a href=""> <h1>Faculty Salaries</h1> </a>
-    </header>
-   </div>
+	<div class="container">
+		<header>     
+      		<a href=""><h1>Faculty Salaries</h1></a>
+    	</header>
+   		<section>
+   			<table class="table table-striped">
+	   			<th>Last Name</th>
+	   			<th>First Name</th>
+	   			<th>Title</th>
+	   			<th>Salary</th>
+
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   			<tr>
+	   				<td>Abashian</td>
+	   				<td>Nancy</td>
+	   				<td>STAFF ASSOCIATE</td> 
+	   				<td>$53,372.00</td>
+	   			</tr>
+	   		</table>
+   		</section>
+   	</div>
 </body>
 </html>
