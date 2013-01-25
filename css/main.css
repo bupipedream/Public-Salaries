@@ -6,4 +6,10 @@
 
 header h1 a {
 	color:#333333;
+	text-decoration:none; 
+}
+
+header h1 a:hover {
+	color:#666666;
+	text-decoration:none; 
 }
