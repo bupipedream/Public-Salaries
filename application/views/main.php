@@ -15,8 +15,8 @@
 </head>
 <body>
    <div class="container"> 
-    <header>     
-      <a href=""> <h1>Faculty Salaries</h1> </a>
+    <header>
+      <h1> <a href=""> Faculty Salaries </a> </h1>
     </header>
    		<section>
    			<table class="table table-striped">
