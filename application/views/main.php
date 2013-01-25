@@ -5,7 +5,7 @@
   <title>Faculty Salaries at Binghamton University</title>
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <meta name="description" content="Search through salaries of professor and faculty at Binghamton University.">
+  <meta name="description" content="Search through salaries of professors and faculty at Binghamton University.">
 </head>
 <body>
    <div class="container"> 
