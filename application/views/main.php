@@ -16,7 +16,11 @@
 <body>
    <div class="container"> 
     <header>
-      <h1> <a href=""> Faculty Salaries </a> </h1>
+    	<h1> <a href=""> Faculty Salaries </a> </h1>
+    	<form style="float:right;" class="form-search">
+			<input type="text" class="input-medium search-query" float:right;>
+			<button type="submit" class="btn" >Search</button>
+		</form>
     </header>
    		<section>
    			<table class="table table-striped">
