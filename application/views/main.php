@@ -19,7 +19,7 @@
     <div class="container-fluid">
       <div class="row-fluid">
 	<div class="span10">
-	  <h1><a href=""> Faculty Salaries </a></h1>
+	  <h1><a href="">Faculty Salaries <small>Binghamton University</small> </a></h1>
 	</div>
         <div class="span2">
           <form class="navbar-search pull-right">
