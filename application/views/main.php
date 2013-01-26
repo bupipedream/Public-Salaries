@@ -21,10 +21,10 @@
 	<div class="span10">
 	  <h1><a href=""> Faculty Salaries </a></h1>
 	</div>
-        <div class="span2">
-          <form class="navbar-search pull-right">
-            <input type="text" class="search-query" placeholder="Search">
-          </form>
+     	<div class="input-append">
+		  <input class="span2" id="appendedInputButton" type="text">
+		  <button class="btn" type="button">Search</button>
+		</div>
         </div>
      </div>
     </div>
