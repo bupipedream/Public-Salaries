@@ -173,7 +173,7 @@
 			</div>
 		    </div>
 		    <div class="span3">
-			<div class ="num-results">
+			<div class="num-results">
 			    Showing results 1-20 of XYZ
 			</div> 
 		    </div>
