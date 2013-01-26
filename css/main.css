@@ -13,3 +13,7 @@ header h1 a:hover {
 	color:#666666;
 	text-decoration:none; 
 }
+
+.navbar-search {
+  margin-top: 10%;
+}
