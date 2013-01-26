@@ -3946,6 +3946,9 @@ input[type="submit"].btn.btn-mini {
 .pagination-right {
   text-align: right;
 }
+.pagination-left {
+  text-align: left;
+}
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
