@@ -147,6 +147,16 @@
 	   			</tr>
 	   		</table>
    		</section>
+
+   	<div class="pagination pagination-centered">
+		 <ul>
+		 <li><a href="#">Prev</a></li>
+		 <li class="active"><a href="#">1</a></li>
+		 <li><a href="#">2</a></li>
+		 <li><a href="#">...</a></li>
+		 <li><a href="#">Next</a></li>
+		  </ul>
+	</div>
       <div class ="num-results">
         Showing results 1-20 of XYZ
       </div> 
