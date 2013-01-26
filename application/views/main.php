@@ -14,7 +14,7 @@
   <meta property="og:description" content="Search through salaries of professors and faculty at Binghamton University.">
 </head>
 <body>
-   <div class="container"> 
+  <div class="container"> 
     <header>
     <div class="container-fluid">
       <div class="row-fluid">
@@ -27,8 +27,8 @@
           </form>
         </div>
      </div>
-   </div>
-    </header>
+    </div>
+   </header>
    		<section>
    			<table class="table table-striped">
 	   			<th>Last Name</th>
