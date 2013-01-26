@@ -168,7 +168,7 @@
 		 <li><a href="#">Next</a></li>
 		  </ul>
 	</div>
-      <div class ="num-results">
+      <div class="num-results">
         Showing results 1-20 of XYZ
       </div> 
    	</div>
