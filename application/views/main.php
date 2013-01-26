@@ -19,12 +19,13 @@
 	    <div class="container-fluid">
 		<div class="row-fluid">
 		    <div class="span10">
-			<h1><a href="">Faculty Salaries <small>Binghamton University</small> </a></h1>
+				<h1><a href="">Faculty Salaries <small>Binghamton University</small> </a></h1>
 		    </div>
 		    <div class="span2">
-			<form class="navbar-search pull-right">
-			    <input type="text" class="search-query" placeholder="Search">
-			</form>
+		    	<form class="input-append pull-right navbar-search">
+				  <input id="appendedInputButton" type="text">
+				  <button class="btn" type="button">Search</button>
+				</form>
 		    </div>
 		</div>
 	    </div>
