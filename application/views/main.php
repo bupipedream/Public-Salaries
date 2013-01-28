@@ -14,7 +14,12 @@
 		<meta property="og:description" content="Search through salaries of professors and faculty at Binghamton University.">
     </head>
     <body>
-	<div class="container"> 
+	<div class="container">
+		<pre>
+			<?php
+				print_r($salaries);
+			?>
+		</pre>
 	    <header>
 	    <div class="container-fluid">
 		<div class="row-fluid">
