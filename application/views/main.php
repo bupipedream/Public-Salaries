@@ -15,11 +15,6 @@
     </head>
     <body>
 	<div class="container">
-		<pre>
-			<?php
-				print_r($salaries);
-			?>
-		</pre>
 	    <header>
 	    <div class="container-fluid">
 		<div class="row-fluid">
