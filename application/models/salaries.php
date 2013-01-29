@@ -7,5 +7,9 @@ class Salaries extends CI_Model {
         parent::__construct();
     }
 
-    function getPublicSalaries($limit, $offset) {}
+    function getPublicSalaries($limit, $offset) {
+    	$this->db->order_by("salary", "desc");
+    	$query = $this->db->get('salaries', $limit, $offset);
+		return $query->result();
+    }
 }
