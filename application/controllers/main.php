@@ -9,7 +9,6 @@ class Main extends CI_Controller {
 		$data = array(
 			'salaries' => $this->salaries->getPublicSalaries(20, 0),
 		);
-		
 		$this->load->view('main', $data);
 
 	}
