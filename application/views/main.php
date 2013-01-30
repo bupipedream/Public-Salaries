@@ -67,7 +67,7 @@
 							</div>
 						</div>
 						<div class="span3">
-							<div class="num-results">Showing results 1-20 of XYZ</div> 
+							<div class="num-results">Showing results <?= $offset ?>-<?= $num_rows ?> of <?= $all_rows ?></div> 
 						</div>
 					</div>
 				</div>
