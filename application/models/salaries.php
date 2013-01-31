@@ -16,7 +16,7 @@ class Salaries extends CI_Model {
     function getByName($name, $limit, $offset) {
         $this->db->like("last_name", $name);
         $this->db->or_like("first_name", $name);
-    	$query = $this->db->get_where('salaries', array('last_name' => $name), $limit, $offset);
+    	$query = $this->db->get('salaries', $limit, $offset);
     	return $query;
     }
 
