@@ -13,9 +13,10 @@ class Salaries extends CI_Model {
 		return $query;
     }
 
-    function getByLastName($lastName, $limit, $offset) {
-    	$this->db->order_by("first_name", "asc");
-    	$query = $this->db->get_where('salaries', array('last_name' => $lastName), $limit, $offset);
+    function getByName($name, $limit, $offset) {
+        $this->db->like("last_name", $name);
+        $this->db->or_like("first_name", $name);
+    	$query = $this->db->get_where('salaries', array('last_name' => $name), $limit, $offset);
     	return $query;
     }
 
@@ -24,17 +25,6 @@ class Salaries extends CI_Model {
         $query = $this->db->get_where('salaries', array('title' => $title), $limit, $offset);
         return $query;
     }
-
-    /*
-
-    *** Not needed if we return the $query and call num_rows() in the controller. Was unsure of best practice? ***
-
-    function getNumRows() {
-        $str = $this->db->last_query();
-        $query = $this->db->query($str);
-        return $query->num_rows();
-    }
-    */ 
 
     function getAllRows() {
         $query = $this->db->count_all('salaries');
