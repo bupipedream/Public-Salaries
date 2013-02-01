@@ -26,7 +26,7 @@ class Salaries extends CI_Model {
         return $query;
     }
 
-    function getAllRows() {
+    function countAllRows() {
         $query = $this->db->count_all('salaries');
         return $query;
     }

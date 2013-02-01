@@ -4,9 +4,9 @@
 		<meta charset="utf-8">
 		<title>Faculty Salaries at Binghamton University</title>
 		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="<?= base_url() ?>css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-		<link href="css/main.css" rel="stylesheet" media="screen">
+		<link href="<?= base_url() ?>css/main.css" rel="stylesheet" media="screen">
 		
 		<meta name="description" content="Search through salaries of professors and faculty at Binghamton University.">
 		
@@ -56,7 +56,8 @@
 				<div class="container-fluid">
 					<div class="row-fluid">
 						<div class="span9">
-							<div class="pagination pagination-left">
+							<?= $this->pagination->create_links(); ?>
+							<!-- <div class="pagination pagination-left">
 								<ul>
 									<li><a href="#">Prev</a></li>
 									<li class="active"><a href="#">1</a></li>
@@ -64,7 +65,7 @@
 									<li><a href="#">...</a></li>
 									<li><a href="#">Next</a></li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
 						<div class="span3">
 							<div class="num-results">Showing results <?= $offset ?>-<?= $num_rows ?> of <?= $all_rows ?></div> 
